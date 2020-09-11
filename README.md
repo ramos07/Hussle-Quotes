@@ -2,9 +2,17 @@
 
 ## A website that generates random quotes from rapper Nipsey Hussle. :computer: :checkered_flag:
 
+### Check it out live :white_check_mark:
+
+https://fathomless-island-10728.herokuapp.com/
+
+---
+
 ### Purpose :brain:
 
 I decided to build this website to practice developing with Node.js, Express.js, Bootstrap, HTML and CSS. Nipsey Hussle has been one of my favorite rappers and I believe he always provided some type of message in his music and outside of his music that would inspire and motivate myself and other people. This website shares some of those quotes with the world. A site dedicated to him.
+
+---
 
 ### Technology Used :hammer_and_wrench:
 
@@ -13,6 +21,9 @@ I decided to build this website to practice developing with Node.js, Express.js,
 -   Handlebars.js
 -   Bootstrap 4
 -   HTML/CSS
+-   Heroku
+
+---
 
 ### Project Structure :open_file_folder:
 
@@ -28,6 +39,8 @@ I decided to build this website to practice developing with Node.js, Express.js,
         -   `/partials` - The partials folder contains the partial components that are used on a page. In this case the header and the footer which are applied to each page through the main layout.
 -   `index.js`
     -   The entry file that starts the whole application and its dependencies and serves the necessary data for each page, routes, etc.
+
+---
 
 ### Contribute :wrench:
 
