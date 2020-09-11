@@ -1,12 +1,12 @@
 # Hussle Quotes
 
-## A website that generates random quotes from rapper Nipsey Hussle.
+## A website that generates random quotes from rapper Nipsey Hussle. :computer: :checkered_flag:
 
-### Purpose
+### Purpose :brain:
 
 I decided to build this website to practice developing with Node.js, Express.js, Bootstrap, HTML and CSS. Nipsey Hussle has been one of my favorite rappers and I believe he always provided some type of message in his music and outside of his music that would inspire and motivate myself and other people. This website shares some of those quotes with the world. A site dedicated to him.
 
-### Technology Used
+### Technology Used :hammer_and_wrench:
 
 -   Node.js
 -   Express.js
@@ -14,7 +14,7 @@ I decided to build this website to practice developing with Node.js, Express.js,
 -   Bootstrap 4
 -   HTML/CSS
 
-### Project Structure
+### Project Structure :open_file_folder:
 
 -   `/data`
     -   The data folder contains the quotes that I used on the website. The quotes were scraped off a website using a Python script I developed.
@@ -29,6 +29,6 @@ I decided to build this website to practice developing with Node.js, Express.js,
 -   `index.js`
     -   The entry file that starts the whole application and its dependencies and serves the necessary data for each page, routes, etc.
 
-### Contribution
+### Contribute :wrench:
 
 This repository is open to contributions. To anyone that wants to enhance their skills and wants to make this website better feel free to fork it or clone it.
