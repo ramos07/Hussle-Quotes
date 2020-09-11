@@ -1,0 +1,23 @@
+{
+  "name": "nipsey-quotes",
+  "version": "1.0.0",
+  "description": "Web application that generates quotes by Nipsey Hussle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "helmet": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.13.0"
+  }
+}

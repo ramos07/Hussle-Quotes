@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif !important;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav li > a:hover {
+    color: red;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px !important;
+}
+
+.navbar-brand:hover {
+    color: red !important;
+}
+
+.bg-black {
+    background: #121212 !important;
+}
+
+.quote-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #121212;
+    color: #fff;
+}
+
+.quote-section h1 {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.quote-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 90vw;
+}
+
+.quote-text {
+    text-align: center;
+    margin: 0 0 15vh 0;
+    font-size: 25px;
+}
+
+.quote-btn {
+    background: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 35vw;
+    font-size: 20px;
+}
+
+.quote-btn:active {
+    background: #fff;
+}
+
+.quote-btn:focus {
+    outline: none;
+    background: #fff;
+}
+
+.quote-btn:hover {
+    background: red;
+    color: #ffff;
+    outline: #fff;
+}
+
+@media (max-width: 576px) {
+    .quote-btn {
+        width: 100%;
+    }
+}
+
+.fa-bars {
+    color: white;
+    font-size: 2rem;
+}
+
+/* ABOUT PAGE CSS */
+.about-page {
+    background: #121212;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.about-message {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
